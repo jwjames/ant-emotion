@@ -1,0 +1,25 @@
+{
+  "name": "ant-emotion",
+  "version": "1.0.0",
+  "description": "Highly customizable Ant Design components, using Emotion.",
+  "license": "MIT",
+  "repository": "ant-emotion",
+  "main": "index.js",
+  "keywords": [
+    "ant design",
+    "antd",
+    "emotion",
+    "css-in-js"
+  ],
+  "Scripts": {
+    "prepublish": "rm -rf ./dist && npm run build"
+  },
+  "peerDependencies": {
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2"
+  },
+  "devDependencies": {
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2"
+  }
+}
