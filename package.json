@@ -11,8 +11,9 @@
     "emotion",
     "css-in-js"
   ],
-  "Scripts": {
-    "prepublish": "rm -rf ./dist && npm run build"
+  "scripts": {
+    "prepublish": "rm -rf ./dist && npm run build",
+    "storybook": "start-storybook"
   },
   "peerDependencies": {
     "react": "^16.8.6",
@@ -20,8 +21,15 @@
     "prop-types": "^15.7.2"
   },
   "devDependencies": {
+    "@babel/core": "^7.6.0",
     "@storybook/react": "^5.1.11",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "babel-loader": "^8.0.6",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.17",
+    "@emotion/styled": "^10.0.17",
+    "antd": "^3.23.2"
   }
 }
